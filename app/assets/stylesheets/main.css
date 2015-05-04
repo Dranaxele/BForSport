@@ -1422,10 +1422,6 @@ Font-Face Icons
 	-webkit-font-smoothing: antialiased;
 }
 
-
-/*************************************/
-
-
 [class^="font-"],
 [class*=" font-"]{
 	display:inline-block;
