@@ -1,9 +1,14 @@
 Rails.application.routes.draw do
-  get 'paris/paris'
 
-  get 'welcome/paris'
+  get 'pages/accueil'
 
-  root 'welcome#index'
+  get 'pages/sports'
+
+  get 'pages/infos'
+
+  get 'pages/classement'
+
+  root 'pages#index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
