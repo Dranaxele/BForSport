@@ -1,21 +1,23 @@
 class PagesController < ApplicationController
   def inex
-      @title = "Test"
+      @title = "| Test"
   end
+    
+    
 
   def accueil
-      @title = "Accueil"
+      @title = "| Accueil"
   end
 
   def sports
-      @title = "Sport"
+      @title = "| Sport"
   end
 
   def infos
-      @title = "Infos"
+      @title = "| Infos"
   end
 
   def classement
-      @title = "classement"
+      @title = "| Classement"
   end
 end
