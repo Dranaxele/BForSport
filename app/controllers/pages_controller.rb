@@ -18,4 +18,8 @@ class PagesController < ApplicationController
   def classement
       @title = "classement"
   end
+
+  def account
+  	@title = "account"
+  end
 end
