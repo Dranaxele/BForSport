@@ -10,6 +10,10 @@ Rails.application.routes.draw do
 
   get 'pages/account'
 
+  get 'pages/bet'
+
+  get 'pages/friends'
+
   root 'pages#index'
 
   # The priority is based upon order of creation: first created -> highest priority.

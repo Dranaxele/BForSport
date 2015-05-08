@@ -21,4 +21,16 @@ class PagesController < ApplicationController
       @title = "| Classement"
   end
 
+  def account
+  	@title = "| Account"
+  end
+
+  def bet
+  	@title = "| Paris"
+  end
+
+  def friends
+  	@title = "| Friends"
+  end
+
 end
