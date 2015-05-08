@@ -8,6 +8,8 @@ Rails.application.routes.draw do
 
   get 'pages/classement'
 
+  get 'pages/account'
+
   root 'pages#index'
 
   # The priority is based upon order of creation: first created -> highest priority.

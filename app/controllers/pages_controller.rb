@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-  def index
+  def inex
       @title = "| Test"
   end
     
@@ -21,7 +21,4 @@ class PagesController < ApplicationController
       @title = "| Classement"
   end
 
-  def account
-  	@title = "account"
-  end
 end
