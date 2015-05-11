@@ -1,11 +1,19 @@
-require 'mysql'  
-
+# Include Ruby Gem libraries.
+require 'rubygems'
+require 'mysql2'
+ 
 begin
-  	#my = Mysql.new(hostname, username, password, databasename)  
-	con = Mysql.new('localhost', 'root', 'root', '')
-rescue Exception => e
-  	puts "Couldn't connect to the databse, try again"
-	exit 1
-	con.close
- end
-	
+  # Create new database connection.
+  client = Mysql2::Client.new(:host => "localhost", :username => "root", :password => "root")
+  # Print connected message.
+  puts "Connected to the MySQL database server."
+
+rescue Mysql::Error => e
+  # Print the error.
+  puts "ERROR #{e.errno} (#{e.sqlstate}): #{e.error}"
+  puts "Can't connect to the MySQL database specified."
+  # Signal an error.
+  exit 1
+ensure
+  # Close the connection when it is open.
+end
