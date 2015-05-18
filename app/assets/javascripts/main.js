@@ -77,10 +77,10 @@ BRUSHED.slider = function(){
 		thumb_links				:	0,			// Individual thumb links for each slide
 		thumbnail_navigation    :   0,			// Thumbnail navigation
 		slides 					:  	[			// Slideshow Images
-											{image : '/assets/image01.jpg', title : '<div class="slide-content">Football</div>', thumb : '', url : ''},
-											{image : '/assets/image02.jpg', title : '<div class="slide-content">Rugby</div>', thumb : '', url : ''},
-											{image : '/assets/image03.jpg', title : '<div class="slide-content">Tennis</div>', thumb : '', url : ''},
-											{image : '/assets/image04.jpg', title : '<div class="slide-content">Basketball</div>', thumb : '', url : ''}  
+											{image : '/assets/foot.jpg', title : '<div class="slide-content">Football</div>', thumb : '', url : ''},
+											{image : '/assets/rugby.jpg', title : '<div class="slide-content">Rugby</div>', thumb : '', url : ''},
+											{image : '/assets/tennis.jpg', title : '<div class="slide-content">Tennis</div>', thumb : '', url : ''},
+											{image : '/assets/basket.jpg', title : '<div class="slide-content">Basketball</div>', thumb : '', url : ''}  
 									],
 									
 		// Theme Options			   
