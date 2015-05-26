@@ -29,8 +29,5 @@ class PagesController < ApplicationController
   def friends
   	@title = "| Friends"
   end
-def inscription
-    @title = "Sign up"
-  end
 
 end

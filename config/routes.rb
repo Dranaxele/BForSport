@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'pages/inscription'
+
   get 'pages/accueil'
 
   get 'pages/sports'
