@@ -30,6 +30,7 @@ class PagesController < ApplicationController
   	@title = "| Friends"
   end
 def inscription
+    @user = User.new
     @title = "Sign up"
   end
 
