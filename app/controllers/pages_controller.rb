@@ -1,16 +1,13 @@
 class PagesController < ApplicationController
-  def inex
-      @title = "| Test"
-  end
+    def inex
+        
+    end
     
     
-
-  def accueil
-      @title = "| Accueil"
-  end
-
   def sports
       @title = "| Sport"
+      $lstParis = ["Bordeaux - Montpellier", "EUH"]
+      $lstLigue = ["Ligue 1", "Ligue 2"]
   end
 
   def infos

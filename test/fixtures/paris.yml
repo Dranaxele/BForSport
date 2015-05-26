@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id_pari: 1
+  id_match_id: 
+  id_user_id: 
+  vote1: 1
+  vote2: 1
+  pari_pts: 1
+  pari_status: 1
+
+two:
+  id_pari: 1
+  id_match_id: 
+  id_user_id: 
+  vote1: 1
+  vote2: 1
+  pari_pts: 1
+  pari_status: 1
